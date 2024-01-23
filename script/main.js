@@ -20,7 +20,7 @@ if(data == undefined){
 
 
 function load_user() {
-  document.getElementById('main-user-avt').src = '.' + ci.webp;
+  document.getElementById('main-user-avt').src =  ci.webp;
 }
 
 function load_comments() {
