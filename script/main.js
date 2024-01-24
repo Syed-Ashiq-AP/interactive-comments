@@ -43,7 +43,7 @@ function load_comments() {
         <section class="user-cc">
           <section class="top-bar">
             <section class="lb">
-              <img class="cavt" src=".`+ v.user.image.webp + `">
+              <img class="cavt" src="`+ v.user.image.webp + `">
               <span class="name">`+ v.user.username + `</span>
               <span class="since">`+ createdAt + ` Days</span>
             </section>
@@ -205,7 +205,7 @@ function load_reply(replies, id) {
     </section>
     <section id='uc-repc-`+ v.id + `' class="client-bar reply edit">
         <section class="auth">
-        <img src=".`+ ci.webp + `">
+        <img src="`+ ci.webp + `">
         </section>
         <section contenteditable class="editable-text">
         <p></p>
